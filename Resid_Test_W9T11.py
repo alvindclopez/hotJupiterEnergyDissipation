@@ -8,11 +8,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Insert path to PSCompPars_1225.csv
 CSV_PATH = (
-    "/Users/alvindclopez/Library/CloudStorage/"
-    "GoogleDrive-alvindelasernalopez@gmail.com/My Drive/Research/"
-    "Characterization of Jupiter-like Exoplanet in a Main Sequence Star/"
-    "Sources/PSCompPars_Xmas25.csv"
+    "csv_path"
 )
 
 # Robustness proxy threshold for Fig 11′ (dex spread in log10|Pdot| across Q models)
